@@ -1,0 +1,23 @@
+<!-- material card -->
+<div class="container">
+  <h1>Angular Tutorials</h1>
+  <div class="gridblock">
+    <mat-card>
+      <!-- 1. video thumbnail -->
+      <img mat-card-image
+           src=" https://img.youtube.com/vi/k5E2AVpwsko/0.jpg">
+      <mat-card-header>
+        <!-- 2. channel icon -->
+        <div mat-card-avatar class="channel-icon"  [ngStyle]="{'style': 'url('')'}"></div>
+        <!-- 3. video title -->
+        <mat-card-title>TITLE</mat-card-title>
+        <!-- 4. channel name -->
+        <mat-card-subtitle>SUBTITLE</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+        <!-- 5. button -->
+        <button mat-raised-button color="primary" (click)="openVideo(1)">WATCH</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+{
+  "videos": [
+    {
+      "title": "Angular Tutorial for Beginners: Learn Angular & TypeScript",
+      "channel": "Programming with Mosh",
+      "url,": "https://www.youtube.com/embed/k5E2AVpwsko",
+      "thumbnailUrl,": "https://img.youtube.com/vi/k5E2AVpwsko/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnj82Lirw0dg6V5pJWAcWdG22OESyldUcDwAFEqQWg=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular Crash Course",
+      "channel": "Traversy Media",
+      "url,": "https://www.youtube.com/embed/Fdf5aTYRW0E",
+      "thumbnailUrl,": "https://img.youtube.com/vi/Fdf5aTYRW0E/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular 4 Material Tutorial",
+      "channel": "DesignCourse",
+      "url,": "https://www.youtube.com/embed/UnKsoCeTdEI",
+      "thumbnailUrl,": "https://img.youtube.com/vi/UnKsoCeTdEI/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwniBsQ2-4KQfl-yhypy68NtPPdzR5kDdT5CNat3xSA=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular Tutorial - 1 - Introduction",
+      "channel": "Codevolution",
+      "url,": "https://www.youtube.com/embed/0eWrpsCLMJQ",
+      "thumbnailUrl,": "https://img.youtube.com/vi/0eWrpsCLMJQ/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnj5vbwTemGpOuabZnfkl_tDzb_Fldf_CSMW2cg3=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "What is Angular? (Explained for Beginners)",
+      "channel": "Andy Sterkowitz",
+      "url,": "https://www.youtube.com/embed/VAkio68d51A",
+      "thumbnailUrl,": "https://img.youtube.com/vi/VAkio68d51A/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwngBbxypaejeG1oC2A7y_y8dUVH4Skj0X36T0_Vp=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular for Beginners - Let's build a Tic-Tac-Toe PWA",
+      "channel": "Fireship",
+      "url,": "https://www.youtube.com/embed/G0bBLvWXBvc",
+      "thumbnailUrl,": "https://img.youtube.com/vi/G0bBLvWXBvc/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnjWfh0Ki7uJWaYNhpZyG8ataxCL9N5SscOhfZfGXg=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Learn Angular - Full Tutorial Course",
+      "channel": "freeCodeCamp.org",
+      "url,": "https://www.youtube.com/embed/2OHbjep_WjQ",
+      "thumbnailUrl,": "https://img.youtube.com/vi/2OHbjep_WjQ/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Learn DOM Manipulation In 18 Minutes",
+      "channel": "Web Dev Simplified",
+      "url,": "https://www.youtube.com/embed/y17RuWkWdn8",
+      "thumbnailUrl,": "https://img.youtube.com/vi/y17RuWkWdn8/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular Full Course - Learn Angular In 3 Hours | Angular Tutorial For Beginners | Simplilearn",
+      "channel": "Simplilearn",
+      "url,": "https://www.youtube.com/embed/iZ1mlcCkY8A",
+      "thumbnailUrl,": "https://img.youtube.com/vi/iZ1mlcCkY8A/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwnhJqtFsDmOEb6Hr30-AtA9e_K2-rJE1J-IbfaB0WQ=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "Angular Full Course in 5 Hours | Angular Tutorial For Beginners | Angular Training | Edureka",
+      "channel": "edureka!",
+      "url,": "https://www.youtube.com/embed/xGpHfFf18Ns",
+      "thumbnailUrl,": "https://img.youtube.com/vi/xGpHfFf18Ns/0.jpg",
+      "avatarUrl,": "https://yt3.ggpht.com/ytc/AAUvwni7i_dF9urC5uwdLIRQU89f5H4krFAgJgywql8kiA=s88-c-k-c0x00ffffff-no-rj"
+    }
+  ]
+}
+
