@@ -25,10 +25,10 @@ export class AppComponent {
   }
 
   openVideo(index) {
-    window.open(index, ' _blank');
+    window.open(this.videos[index]['url'], ' _blank');
   }
 
   getAvatarUrl(index){
-    // return the URL of the channel’s icon
+    return 'url('+this.videos[index]['avatarUrl']+')';
   }
 }

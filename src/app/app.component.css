@@ -14,3 +14,35 @@
   background-image: url("../assets/defaultAvatar.png");
   background-size: cover;
 }
+
+.box {
+  position: relative;
+  background: linear-gradient(0deg, white, white);
+}
+
+.glowing::before{
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, purple, #bd2681, #6512b9, #ff3300de, blue);
+  background-size: 400%;
+  width: calc(98% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: glower 60s linear infinite;
+}
+
+@keyframes glower {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

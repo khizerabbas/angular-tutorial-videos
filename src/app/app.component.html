@@ -2,22 +2,25 @@
 <div class="container">
   <h1>Angular Tutorials</h1>
   <div class="gridblock">
-    <mat-card>
+    <mat-card *ngFor="let video of videos; let i = index" class="box glowing">
       <!-- 1. video thumbnail -->
-      <img mat-card-image
-           src=" https://img.youtube.com/vi/k5E2AVpwsko/0.jpg">
-      <mat-card-header>
+      <img mat-card-image  [src]="video.thumbnailUrl">
+      <mat-card-header style="height: 180px">
         <!-- 2. channel icon -->
-        <div mat-card-avatar class="channel-icon"  [ngStyle]="{'style': 'url('')'}"></div>
+        <div mat-card-avatar class="channel-icon"  [ngStyle]="{'background-image': getAvatarUrl(i)}"></div>
         <!-- 3. video title -->
-        <mat-card-title>TITLE</mat-card-title>
+        <mat-card-title>{{video.title}}</mat-card-title>
         <!-- 4. channel name -->
-        <mat-card-subtitle>SUBTITLE</mat-card-subtitle>
+        <mat-card-subtitle>{{video.channel}}</mat-card-subtitle>
       </mat-card-header>
-      <mat-card-actions>
-        <!-- 5. button -->
-        <button mat-raised-button color="primary" (click)="openVideo(1)">WATCH</button>
-      </mat-card-actions>
+      <hr>
+      <div style="text-align: center">
+        <mat-card-actions>
+          <!-- 5. button -->
+          <button mat-raised-button color="primary" (click)="openVideo(i)">WATCH</button><br><br>
+          <i>Date Uploaded : {{video.dateUploaded}}</i>
+        </mat-card-actions>
+      </div>
     </mat-card>
   </div>
 </div>
